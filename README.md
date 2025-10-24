@@ -18,24 +18,24 @@ Hey nice people, thanks for dropping by! I've started this repository as a way t
 
 Click [here](https://skinnyfrit.github.io) to access the site!
 
-<style>([back to top](#personal-github-page)) {text-align: right}</style>
-
 ### Built With
 
 - HTML
+
+<a href="#anchor" style="float: right;">(back to top)</a>
 
 ## Roadmap
 <!-- - [] Add roadmap -->
 [To be updated]
 
-<div align="right">([back to top](#personal-github-page))</div>
+<a href="#personal-github-page" style="float: right;">(back to top)</a>
 
 ## Contact
 [To be updated]
 
-<div align="right">([back to top](#personal-github-page))</div>
+<a href="#personal-github-page" style="float: right;">(back to top)</a>
 
 ## Acknowledgements
 [To be updated]
 
-<div align="right">([back to top](#personal-github-page))</div>
+<a href="#personal-github-page" style="float: right;">(back to top)</a>
