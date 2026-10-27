@@ -12,7 +12,7 @@
 </details>
 
 ## About
-Hey nice people, thanks for dropping by! I've started this repository as a way to get started on personal projects with coding and app development! 
+Hey nice people, thanks for dropping by! I've started this repository as a way to get started on personal projects with coding and application development! 
 
 Click [here](https://skinnyfrit.github.io) to access the site!
 
@@ -23,17 +23,20 @@ Click [here](https://skinnyfrit.github.io) to access the site!
 <a href="#anchor" style="float: right;">(back to top)</a>
 
 ## Roadmap
-<!-- 
-- [] Add roadmap 
-- [] 
--->
-[To be updated]
+- Overview
+  - [ ] Create custom GitHub Actions workflow to deploy site
+  - [ ] Use Git flow or GitHub flow as practice (questionable since this is a solo project)
+  - [ ] Design templates, layouts and containers
+  - [ ] Set up placeholders in .html
+- Pages
+  - [ ] About Me: Add information necessary
+  - [ ] Portfolio: Add scrolling card element
 
 <a href="#anchor" style="float: right;">(back to top)</a>
 
 ## Contact
-GitHub: https://github.com/skinnyfrit
-Bluesky: https://bsky.app/profile/ereth.bsky.social
+[GitHub](https://github.com/skinnyfrit)  
+[Email](mailto:gracetanyj@gmail.com)
 
 <a href="#anchor" style="float: right;">(back to top)</a>
 
