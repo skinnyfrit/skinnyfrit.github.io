@@ -18,16 +18,16 @@ Click [here](https://skinnyfrit.github.io) to access the site!
 
 ### Built With
 
-- HTML
+- HTML, CSS, JavaScript
 
 <a href="#anchor" style="float: right;">(back to top)</a>
 
 ## Roadmap
 - Overview
-  - [ ] Create custom GitHub Actions workflow to deploy site
-  - [ ] Use Git flow or GitHub flow as practice (questionable since this is a solo project)
+  - [x] Create custom GitHub Actions workflow to deploy site
+  - [x] Use Git flow or GitHub flow as practice (questionable since this is a solo project)
   - [ ] Design templates, layouts and containers
-  - [ ] Set up placeholders in .html
+  - [x] Set up placeholders in .html
 - Pages
   - [ ] About Me: Add information necessary
   - [ ] Portfolio: Add scrolling card element
