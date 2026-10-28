@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            h1 {
-                color: blue;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size:300%;
-            }
-            p{
-                color:brown;
-                font-family:fantasy;
-                font-size:140%;
-            }
-        </style>
-        <title>This is my site.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="templates/styles.css">
+        <!-- <title>Portfolio site</title> -->
     </head>
     <body>
+        <div id="app">Loading layout and views...</div>
+        <script>
+            async function buildPage() {
+                try {
+                    // const layoutResponse = await fetch('templates/layout.html')
+                    // 1. Fetch the text content of layout.html
+                    const layoutResponse = await fetch('templates/layout.html');
+                    const layoutHtml = await layoutResponse.text();
+                    
+                    // 2. Inject layout.html into the app canvas
+                    const app = document.getElementById('app');
+                    app.innerHTML = layoutHtml;
 
-        <h1> Hello World </h1>
+                    // 3. Fetch the template view content
+                    const templateResponse = await fetch('templates/template.html');
+                    const templateHtml = await templateResponse.text();
+
+                    // 4. Find the placeholder inside layout.html and inject the template
+                    const mainSlot = app.querySelector('#main-content');
+                    if (mainSlot) {
+                        mainSlot.innerHTML = templateHtml;
+                    } 
+                } catch (error) {
+                    console.error("Error loading template files.", error);
+                    document.getElementById("app").textContent = "Failed to load components."
+                }
+            }
+            buildPage();
+        </script>
+    </body>
+</html>
+
+<!--    <h1> Hello World </h1>
         <p>
             helloworld
 
             <a href="https://skinnyfrit.github.io/page1">Visit page1!</a>
         </p>
-        <p>Visit the <a href="https://github.com/skinnyfrit/skinnyfrit.github.io">documentation</a> here!</p>
-    </body>
-</html>
+        <p>Visit the <a href="https://github.com/skinnyfrit/skinnyfrit.github.io">documentation</a> here!</p> -->
